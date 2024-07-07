@@ -1,0 +1,283 @@
+.navbar-brand {
+    font-family: "Ysabeau", sans-serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin: auto;
+  }
+  .footer {
+    font-family: "Ysabeau", sans-serif;
+    font-size: 1rem;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+  
+  .copyright {
+    margin: auto;
+  }
+  
+  .btn:hover {
+    color: white;
+  }
+  
+  .feedback {
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-right: 50px;
+  }
+  
+  .feedbacktitle {
+    color: #212a3e;
+  }
+  
+  .content {
+    padding-right: 4rem;
+  }
+  
+  .university {
+    margin-left: 250px;
+    margin-right: 200px;
+    padding-top: 50px;
+  }
+  
+  .card-img {
+    width: 200px;
+  }
+  
+  .card {
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 35rem;
+    height: 26rem;
+  }
+  .card-title {
+    color: #ce7777;
+  }
+  .card-text {
+    margin-top: 1rem;
+  }
+  /* popup of login */
+  .hidden {
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    height: 100px;
+    visibility: hidden;
+  }
+  
+  .yes,
+  .no {
+    background-color: #ce7777;
+    margin-left: 15px;
+  }
+  
+  .yes:hover,
+  .no:hover {
+    background-color: #ce7777;
+    color: white;
+  }
+  
+  .logInfo {
+    margin-bottom: 10px;
+  }
+  
+  .open-popup {
+    position: fixed;
+    visibility: visible;
+  }
+  
+  .close-popup {
+    visibility: hidden;
+  }
+  
+  .blur {
+    filter: blur(6px);
+  }
+  
+  /*For tablets and ipads*/
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-brand {
+      font-size: 2.3rem;
+      margin: auto;
+    }
+    .footer {
+      font-size: 1rem;
+    }
+    .feedback {
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-left: 2rem;
+      margin-top: 2.2rem;
+    }
+    .university {
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-top: 15px;
+    }
+    .content {
+      padding-right: 0;
+      display: inline-block;
+    }
+    .feedbacktitle {
+      margin-top: 2rem;
+    }
+    .card {
+      margin-left: 130px;
+      margin-bottom: 60px;
+      width: 40rem;
+      height: 26rem;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.8rem;
+      margin: auto;
+    }
+    .footer {
+      font-size: 1rem;
+    }
+    .feedback {
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-left: 2rem;
+      margin-top: 2.2rem;
+    }
+    .university {
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-top: 15px;
+    }
+    .content {
+      padding-right: 0;
+    }
+    .feedbacktitle {
+      margin-top: 1rem;
+    }
+    .card {
+      margin-left: 70px;
+      margin-right: 0;
+      margin-bottom: 60px;
+      width: 27rem;
+      height: 28rem;
+    }
+  }
+  /* for mobile devices */
+  @media only screen and (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1.2rem;
+      margin: auto;
+    }
+    .footer {
+      font-size: 1rem;
+    }
+    .feedback {
+      width: 200px;
+      height: 200px;
+      margin-left: 0.5rem;
+      margin-top: 1rem;
+      float: left;
+    }
+    .university {
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-top: 15px;
+    }
+    .content {
+      padding-right: 0;
+    }
+    .feedbacktitle {
+      margin-top: 1rem;
+      display: inline-block;
+    }
+    .card {
+      margin-left: 30px;
+      margin-right: 0;
+      margin-bottom: 60px;
+      width: 18.5rem;
+      height: 30rem;
+    }
+    .student {
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-brand {
+      font-size: 1.8rem;
+      margin: auto;
+    }
+    .footer {
+      font-size: 1rem;
+    }
+    .feedback {
+      width: 150px;
+      height: 150px;
+      float: left;
+      margin-left: 2rem;
+      margin-top: 2.2rem;
+    }
+    .university {
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-top: 15px;
+    }
+    .content {
+      padding-right: 0;
+      display: inline-block;
+    }
+    .feedbacktitle {
+      margin-top: 3rem;
+    }
+    .card {
+      margin-left: 250px;
+      margin-right: 0;
+      margin-bottom: 60px;
+      width: 29rem;
+      height: 30rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .navbar-brand {
+      font-size: 1.8rem;
+      margin: auto;
+    }
+    .footer {
+      font-size: 1rem;
+    }
+    .feedback {
+      width: 160px;
+      height: 180px;
+      float: left;
+      margin-left: 2rem;
+      margin-top: 3rem;
+    }
+    .university {
+      margin-left: 40px;
+      margin-right: 40px;
+      padding-top: 15px;
+    }
+    .content {
+      padding-right: 0;
+      display: inline-block;
+    }
+    .feedbacktitle {
+      margin-top: 5rem;
+    }
+    .card {
+      margin-left: 340px;
+      margin-bottom: 60px;
+      width: 40rem;
+      height: 28rem;
+    }
+  }
+  

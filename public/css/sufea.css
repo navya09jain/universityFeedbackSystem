@@ -1,0 +1,87 @@
+.navbar-brand {
+    font-family: "Ysabeau", sans-serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin: auto;
+  }
+  .footer {
+    font-family: "Ysabeau", sans-serif;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+  
+  .copyright {
+    margin: auto;
+  }
+  
+  .card {
+    width: 70rem;
+    height: 4.9rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+  .card-header {
+    color: #ce7777;
+    font-family: "Ysabeau", sans-serif;
+    font-size: 2.5rem;
+  }
+  
+  .btn:hover {
+    color: white;
+  }
+  
+  /* for mobile screens */
+  @media screen and (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1.3rem;
+      margin: auto;
+      margin-left: 0;
+    }
+    .card {
+      width: 21rem;
+      height: 2.9rem;
+      margin-top: 1.5rem;
+      margin-left: 1rem;
+    }
+    .card-header {
+      color: #ce7777;
+      font-family: "Ysabeau", sans-serif;
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* for tablets and ipads */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-brand {
+      font-size: 3rem;
+    }
+    .card {
+      width: 40rem;
+      height: 4rem;
+      margin-top: 5rem;
+      margin-left: 3rem;
+    }
+    .card-header {
+      color: #ce7777;
+      font-family: "Ysabeau", sans-serif;
+      font-size: 2rem;
+    }
+  }
+  
+  /* big tablets */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .card {
+      width: 55rem;
+      height: 2.8rem;
+      margin-top: 1.5rem;
+      margin-left: 1rem;
+    }
+    .card-header {
+      color: #ce7777;
+      font-family: "Ysabeau", sans-serif;
+      font-size: 1.1rem;
+    }
+  }

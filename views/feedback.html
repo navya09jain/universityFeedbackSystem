@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>UFS || Feedback</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <!--css-->
+    <link rel="stylesheet" href="css/sufea.css" />
+    <!--another html pages-->
+    <!--navbar-->
+    <nav class="navbar navbar-expand-xl" style="background-color: #ce7777">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: white">
+          University Feedback System
+        </a>
+        <a
+          href="http://localhost:3000/mainpage"
+          class="btn me-2 goback"
+          style="background-color: #e8c4c4"
+        >
+          Go Back
+        </a>
+      </div>
+    </nav>
+  </head>
+  <body style="background-color: #e8c4c4">
+    <nav
+      class="navbar navbar-expand-sm footer"
+      style="background-color: #ce7777"
+    >
+      <p class="copyright">Copyright © 2023</p>
+    </nav>
+    <div class="card text-right">
+      <div class="card-header">Feedbacks</div>
+      <div class="card-body">
+        <p class="card-text">
+          Feedbacks are a way to express your positive or negative opinions
+          about anything or anyone. It's a platform where everyone give their
+          honest and real opinions about anything to improve their performance.
+        </p>
+        <form action="/feedback" method="POST">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">
+              Name and Class
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter your name and class"
+              name="name1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">
+              Title
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="What's your feedback about?"
+              name="title1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">
+              Feedback
+            </label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              maxlength="2000"
+              placeholder="Please enter your feedback here"
+              name="description1"
+            ></textarea>
+          </div>
+          <button
+            class="btn mt-2"
+            style="background-color: #ce7777"
+            type="submit"
+            name="feedbacksubmit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

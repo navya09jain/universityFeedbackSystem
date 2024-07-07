@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UFS || Sign Up</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Bootstrap JS Bundle (Bootstrap + Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body style="background-color: #e8c4c4">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #ce7777">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://localhost:3000/login" style="color: white">University Feedback System</a>
+    </div>
+  </nav>
+
+  <!-- Signup Form Section -->
+  <section class="gradient-custom">
+    <div class="container py-4">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4">
+          <div class="card bg-light text-black" style="border-radius: 1rem">
+            <div class="card-body text-center">
+              <div class="mb-md-4 mt-md-4">
+                <h2>Registration Portal</h2>
+                <form method="post" action="/signup">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputPassword5" class="form-label">Password</label>
+                    <input type="password" id="inputPassword5" class="form-control" name="password" aria-describedby="passwordHelpBlock">
+                    <div id="passwordHelpBlock" class="form-text">
+                      Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emojis.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Confirm Password</label>
+                    <input type="password" id="confirmPassword" class="form-control" name="confirmPassword" aria-describedby="passwordHelpBlock">
+                  </div>
+                  <button type="submit" style="background-color: #ce7777" class="btn btn-primary">Sign Up</button>
+                </form>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <nav class="navbar navbar-expand-sm footer" style="background-color: #ce7777">
+    <p class="copyright">Copyright © 2023</p>
+  </nav>
+</body>
+</html>
+
+
